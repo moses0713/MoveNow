@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa728f3500c0854eb2983f84ec43cf2, type: 3}
+  m_Name: "(\u666E\u901A)Beautiful now"
+  m_EditorClassIdentifier: 
+  GameTimerLists:
+  - timer: 3.8613153
+    SquareID: 12
+  - timer: 3.882653
+    SquareID: 2
+  - timer: 5.7599773
+    SquareID: 11
+  - timer: 5.7599773
+    SquareID: 3
+  - timer: 7.50932
+    SquareID: 5
+  - timer: 7.530658
+    SquareID: 16
+  - timer: 9.279978
+    SquareID: 15
+  - timer: 9.301315
+    SquareID: 6
+  - timer: 11.199977
+    SquareID: 1
+  - timer: 11.221315
+    SquareID: 13
+  - timer: 12.94932
+    SquareID: 12
+  - timer: 12.970657
+    SquareID: 2
+  - timer: 14.890657
+    SquareID: 5
+  - timer: 14.911996
+    SquareID: 16
+  - timer: 16.78932
+    SquareID: 12
+  - timer: 16.78932
+    SquareID: 2
+  - timer: 18.965328
+    SquareID: 1
+  - timer: 18.965328
+    SquareID: 13
+  - timer: 19.989319
+    SquareID: 1
+  - timer: 20.010658
+    SquareID: 13
+  - timer: 20.885328
+    SquareID: 12
+  - timer: 20.885328
+    SquareID: 2
+  - timer: 21.84533
+    SquareID: 12
+  - timer: 21.84533
+    SquareID: 2
+  - timer: 22.826645
+    SquareID: 5
+  - timer: 22.847982
+    SquareID: 16
+  - timer: 23.743992
+    SquareID: 15
+  - timer: 23.76533
+    SquareID: 6
+  - timer: 26.261314
+    SquareID: 11
+  - timer: 26.282654
+    SquareID: 3
+  - timer: 27.967981
+    SquareID: 13
+  - timer: 28.010658
+    SquareID: 1
+  - timer: 29.930658
+    SquareID: 12
+  - timer: 29.951996
+    SquareID: 2
+  - timer: 31.786644
+    SquareID: 13
+  - timer: 31.786644
+    SquareID: 3
+  - timer: 33.621315
+    SquareID: 5
+  - timer: 33.642654
+    SquareID: 16
+  - timer: 35.49866
+    SquareID: 15
+  - timer: 35.519978
+    SquareID: 6
+  - timer: 37.482655
+    SquareID: 1
+  - timer: 37.50399
+    SquareID: 13
+  - timer: 39.274647
+    SquareID: 11
+  - timer: 39.317326
+    SquareID: 3
+  - timer: 41.51465
+    SquareID: 12
+  - timer: 41.535988
+    SquareID: 2
+  - timer: 42.453312
+    SquareID: 11
+  - timer: 42.453312
+    SquareID: 3
+  - timer: 43.41331
+    SquareID: 1
+  - timer: 43.43465
+    SquareID: 13
+  - timer: 44.351994
+    SquareID: 2
+  - timer: 44.39465
+    SquareID: 12
+  - timer: 45.247982
+    SquareID: 5
+  - timer: 45.26932
+    SquareID: 16
+  - timer: 46.271996
+    SquareID: 3
+  - timer: 46.271996
+    SquareID: 11
+  - timer: 47.231995
+    SquareID: 13
+  - timer: 47.25331
+    SquareID: 1
+  - timer: 48.106644
+    SquareID: 11
+  - timer: 48.106644
+    SquareID: 3
+  - timer: 49.04533
+    SquareID: 2
+  - timer: 49.066643
+    SquareID: 12
+  - timer: 49.941315
+    SquareID: 2
+  - timer: 49.98399
+    SquareID: 12
+  - timer: 50.85866
+    SquareID: 3
+  - timer: 50.87998
+    SquareID: 11
+  - timer: 51.81866
+    SquareID: 12
+  - timer: 51.839977
+    SquareID: 2
+  - timer: 52.757324
+    SquareID: 13
+  - timer: 52.757324
+    SquareID: 1
+  - timer: 53.65331
+    SquareID: 11
+  - timer: 53.65331
+    SquareID: 3
+  - timer: 56.511997
+    SquareID: 12
+  - timer: 56.53331
+    SquareID: 2
+  - timer: 57.557323
+    SquareID: 14
+  - timer: 57.557323
+    SquareID: 4
+  - timer: 58.517323
+    SquareID: 6
+  - timer: 58.55998
+    SquareID: 15
+  - timer: 59.32798
+    SquareID: 5
+  - timer: 59.34932
+    SquareID: 16
+  - timer: 60.22399
+    SquareID: 11
+  - timer: 60.22399
+    SquareID: 3
+  - timer: 61.20533
+    SquareID: 12
+  - timer: 61.20533
+    SquareID: 2
+  - timer: 62.22932
+    SquareID: 12
+  - timer: 62.250656
+    SquareID: 2
+  - timer: 63.082653
+    SquareID: 12
+  - timer: 63.103992
+    SquareID: 2
+  - timer: 64.06399
+    SquareID: 2
+  - timer: 64.10664
+    SquareID: 12
+  - timer: 64.89599
+    SquareID: 14
+  - timer: 64.89599
+    SquareID: 4
+  - timer: 65.81331
+    SquareID: 3
+  - timer: 65.83465
+    SquareID: 11
+  - timer: 66.70932
+    SquareID: 5
+  - timer: 66.752
+    SquareID: 16
+  - timer: 67.73331
+    SquareID: 6
+  - timer: 67.75465
+    SquareID: 16
+  - timer: 68.62932
+    SquareID: 15
+  - timer: 68.65066
+    SquareID: 5
+  - timer: 69.567986
+    SquareID: 3
+  - timer: 69.61066
+    SquareID: 11
+  - timer: 69.61066
+    SquareID: 0
