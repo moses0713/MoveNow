@@ -45,8 +45,8 @@ public class moveL : MonoBehaviour
 
         if (moveP.y < 120)//自動消失 
         {
-            Debug.Log("消除失敗");
-            Debug.Log(Time.time-createTime);
+            //Debug.Log("消除失敗");
+            //Debug.Log(Time.time-createTime);
             Ans.Set(false);//回傳"失敗"
             Destroy(gameObject);
         }

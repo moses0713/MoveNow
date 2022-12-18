@@ -124,13 +124,13 @@ namespace Mediapipe.Unity.HandTracking
             }
             else
             {
-                Debug.Log("[OnHandLandmarksOutput] X0: " + eventArgs.value[0].Landmark[9].X + ", Y0: " + eventArgs.value[0].Landmark[9].Y);
+                //Debug.Log("[OnHandLandmarksOutput] X0: " + eventArgs.value[0].Landmark[9].X + ", Y0: " + eventArgs.value[0].Landmark[9].Y);
                 x1 = eventArgs.value[0].Landmark[9].X;
                 y1 = eventArgs.value[0].Landmark[9].Y;
                 isProcessResult1 = true;
                 try
                 {
-                    Debug.Log("[OnHandLandmarksOutput] X1: " + eventArgs.value[1].Landmark[9].X + ", Y1: " + eventArgs.value[1].Landmark[9].Y);
+                    //Debug.Log("[OnHandLandmarksOutput] X1: " + eventArgs.value[1].Landmark[9].X + ", Y1: " + eventArgs.value[1].Landmark[9].Y);
                     x2 = eventArgs.value[1].Landmark[9].X;
                     y2 = eventArgs.value[1].Landmark[9].Y;
                     isProcessResult2 = true;

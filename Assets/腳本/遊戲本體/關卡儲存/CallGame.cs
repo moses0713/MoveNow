@@ -8,6 +8,8 @@ public class CallGame : CallSquare//繼承呼叫方塊
     [Header("軌道時刻表文件")]
     public GameSaveList GameListIn;//關卡
 
+    public GameSaveList[] GameListIns = new GameSaveList[12];//關卡
+
     public AudioSource bgm;//音樂
 
     public float delay;
@@ -23,12 +25,18 @@ public class CallGame : CallSquare//繼承呼叫方塊
 
     private List<PointData> GameList = new List<PointData>();
 
+    private int choose_song_vari = 0;
+    private int choose_level_vari = 0;
 
     private void Start()
     {
         SquareID = GameListIn.GameTimerLists[Nowset].SquareID;//第一個音符
         timer = GameListIn.GameTimerLists[Nowset].timer;
         //Debug.Log("Set:" + timer);
+
+        choose_song_vari = PlayerPrefs.GetInt("choose_song");
+        choose_level_vari = PlayerPrefs.GetInt("choose_level");
+        GameListIn = GameListIns[choose_song_vari * 3 + choose_level_vari]; // [1 , 2] = [5]
 
     }
 
@@ -63,7 +71,7 @@ public class CallGame : CallSquare//繼承呼叫方塊
 
         if (bgm.time+delay >= timer)//呼叫方塊
             {
-                Debug.Log("Now:"+bgm.time);
+                //Debug.Log("Now:"+bgm.time);
                 if (SquareID == 1)
                 {
                     CallR1();

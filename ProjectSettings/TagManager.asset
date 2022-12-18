@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - playBgMusic
+  - gameArrows
+  - arrowsL
+  - arrowsR
   layers:
   - Default
   - TransparentFX
