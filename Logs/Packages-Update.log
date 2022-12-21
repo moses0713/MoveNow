@@ -1,0 +1,13 @@
+
+=== Wed Dec 21 12:36:12 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.2d.animation from version 7.0.7 to 7.0.9
+  com.unity.2d.pixel-perfect from version 5.0.1 to 5.0.3
+  com.unity.2d.psdimporter from version 6.0.5 to 6.0.6
+  com.unity.collab-proxy from version 1.17.2 to 1.17.7
+  com.unity.ide.rider from version 3.0.15 to 3.0.16
+  com.unity.purchasing from version 4.4.1 to 4.5.1

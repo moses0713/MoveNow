@@ -44,9 +44,12 @@ public class stopBtn : MonoBehaviour
             }
 
         }
-        else
-        {
-            Time.timeScale = 1;
+        
+        Debug.Log("Time.timeScale: " + isPause + ", " + Time.timeScale);
+    }
+
+	public void onResume(){
+	 Time.timeScale = 1;
             bgMusicAudioSource.Play();
             arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");
             foreach (GameObject L in arrowsL) {
@@ -57,7 +60,5 @@ public class stopBtn : MonoBehaviour
             foreach (GameObject R in arrowsR) {
                 R.GetComponent<moveR>().enabled = true;
             }
-        }
-        Debug.Log("Time.timeScale: " + isPause + ", " + Time.timeScale);
-    }
+	}
 }

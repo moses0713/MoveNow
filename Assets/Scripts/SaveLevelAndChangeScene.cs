@@ -6,7 +6,7 @@ public class SaveLevelAndChangeScene : MonoBehaviour
 {
     public int song;
     public void onClickToSaveLevel(int level) {
-        string ScneneName = "πC¿∏•ª≈È";
+        string ScneneName = "GameNow";
         Debug.Log(ScneneName + " " + song + " " + level);
         PlayerPrefs.SetInt("choose_song", song);
         PlayerPrefs.SetInt("choose_level", level);
