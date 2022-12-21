@@ -24,41 +24,36 @@ public class stopBtn : MonoBehaviour
         isPause = !isPause;
 
         // 暫停
-        if (isPause == true)
-        {
-            Time.timeScale = 0;
+        Time.timeScale = 0;
 
-            // 音樂暫停
-            bgMusicAudioSource.Pause();
+        // 音樂暫停
+        bgMusicAudioSource.Pause();
 
-            // 左箭頭暫停
-            arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");
-            foreach (GameObject L in arrowsL) {
-                L.GetComponent<moveL>().enabled = false;
-            }
-
-            // 右箭頭暫停
-            arrowsR = GameObject.FindGameObjectsWithTag("arrowsR");
-            foreach (GameObject R in arrowsR) {
-                R.GetComponent<moveR>().enabled = false;
-            }
-
+        // 左箭頭暫停
+        arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");
+        foreach (GameObject L in arrowsL) {
+            L.GetComponent<moveL>().enabled = false;
         }
-        
+
+        // 右箭頭暫停
+        arrowsR = GameObject.FindGameObjectsWithTag("arrowsR");
+        foreach (GameObject R in arrowsR) {
+            R.GetComponent<moveR>().enabled = false;
+        }
         Debug.Log("Time.timeScale: " + isPause + ", " + Time.timeScale);
     }
 
 	public void onResume(){
-	 Time.timeScale = 1;
-            bgMusicAudioSource.Play();
-            arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");
-            foreach (GameObject L in arrowsL) {
-                L.GetComponent<moveL>().enabled = true;
-            }
+	    Time.timeScale = 1;
+        bgMusicAudioSource.Play();
+        arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");
+        foreach (GameObject L in arrowsL) {
+            L.GetComponent<moveL>().enabled = true;
+        }
 
-            arrowsR = GameObject.FindGameObjectsWithTag("arrowsR");
-            foreach (GameObject R in arrowsR) {
-                R.GetComponent<moveR>().enabled = true;
-            }
+        arrowsR = GameObject.FindGameObjectsWithTag("arrowsR");
+        foreach (GameObject R in arrowsR) {
+            R.GetComponent<moveR>().enabled = true;
+        }
 	}
 }

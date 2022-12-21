@@ -139,8 +139,8 @@
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Packet\RectVectorPacket.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\LandmarksToDetectionCalculator.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Framework\Port\StatusOr.cs" />
-    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\ConnectionListAnnotation.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\TfliteTensorsToDetectionsCalculator.cs" />
+    <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Unity\Annotation\ConnectionListAnnotation.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Tflite\SsdAnchorsCalculator.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\PInvoke\NativeMethods\Framework\Calculator_Unsafe.cs" />
     <Compile Include="Packages\com.github.homuler.mediapipe\Runtime\Scripts\Protobuf\Calculators\Util\FilterDetectionsCalculator.cs" />

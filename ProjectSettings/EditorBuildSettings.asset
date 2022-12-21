@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/\u904A\u6232\u6559\u5B78.unity"
     guid: f54575b9d4a647a4aa4921a1ac94041e
   - enabled: 1
-    path: "Assets/Scenes/\u904A\u6232\u672C\u9AD4.unity"
+    path: Assets/Scenes/GameNow.unity
     guid: 5442cbcc066a9354785c8172d19a7bd0
   m_configObjects: {}

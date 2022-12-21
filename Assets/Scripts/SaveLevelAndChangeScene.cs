@@ -5,6 +5,8 @@ using UnityEngine.UI;
 public class SaveLevelAndChangeScene : MonoBehaviour
 {
     public int song;
+
+    [System.Obsolete]
     public void onClickToSaveLevel(int level) {
         string ScneneName = "GameNow";
         Debug.Log(ScneneName + " " + song + " " + level);
