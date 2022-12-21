@@ -9,7 +9,7 @@ public class AudioControl : MonoBehaviour
 
     public Slider slider;
     public Toggle toggle;
-    public AudioSource BGmusic;
+    public AudioSource BGmusic; 
 
 
     public void ControlAudio()
