@@ -21,7 +21,7 @@ public class stopBtn : MonoBehaviour
 
     public void PauseGame()
     {
-        isPause = !isPause;
+
 
         // 暫停
         Time.timeScale = 0;
@@ -44,6 +44,7 @@ public class stopBtn : MonoBehaviour
     }
 
 	public void onResume(){
+
 	    Time.timeScale = 1;
         bgMusicAudioSource.Play();
         arrowsL = GameObject.FindGameObjectsWithTag("arrowsL");

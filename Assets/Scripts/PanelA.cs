@@ -55,4 +55,23 @@ public class PanelA : MonoBehaviour
         UIManger.Instance.ClosePanel("Song7");
 
     }
+    public void CloseSong8()
+    {
+
+        UIManger.Instance.ClosePanel("Song8");
+
+    }
+    public void CloseSong9()
+    {
+
+        UIManger.Instance.ClosePanel("Song9");
+
+    }
+    public void CloseSong10()
+    {
+
+        UIManger.Instance.ClosePanel("Song10");
+
+    }
 }
+

@@ -8,6 +8,10 @@ public class CallGame : CallSquare//繼承呼叫方塊
     [Header("軌道時刻表文件")]
     public GameSaveList GameListIn;//關卡
 
+
+    public GameObject OverMenu;
+    
+
     public GameSaveList[] GameListIns = new GameSaveList[12];//關卡
 
     public AudioSource bgm;//音樂
@@ -68,6 +72,12 @@ public class CallGame : CallSquare//繼承呼叫方塊
             bgm.time = bgmslider.value * bgm.clip.length;
         }
 
+        if (bgmslider.value == 1)
+        {
+
+            OverMenu.SetActive(true);
+
+        }
 
         if (bgm.time+delay >= timer)//呼叫方塊
             {
