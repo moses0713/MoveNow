@@ -7,6 +7,7 @@ public class ButtonPause : MonoBehaviour{
   //the ButtonPauseMenu
     public GameObject PauseMenu;
     public GameObject OverMenu;
+    
     public void OnPause()//点击“暂停”时执行此方法
     {
         PauseMenu.SetActive(true);
@@ -22,6 +23,7 @@ public class ButtonPause : MonoBehaviour{
         //  Loading Scene0
         // UnityEngine.SceneManagement.SceneManager.LoadScene(5);
         Time.timeScale = 1;
+        PauseMenu.SetActive(false);
         SceneManager.LoadScene(1);
         Debug.Log("OnRestart");
 
@@ -29,7 +31,8 @@ public class ButtonPause : MonoBehaviour{
 
 
     public void OnDestroy() {
-
+        
+        
         OverMenu.SetActive(false);
         
         SceneManager.LoadScene(1);
